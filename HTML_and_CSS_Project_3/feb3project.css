@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #ff50ca;
+    background-blend-mode: multiply;
+}
+nav{
+    margin:0;
+    padding: 0;
+    background-color:black;
+}
+.container
+{
+
+    display: flex;
+    flex-flow: row wrap;
+    gap: 32vw;
+    height: 9vh;
+}
+.left-nav
+{
+    padding-left: 4vw;
+    display: flex ;
+    flex-flow: row wrap;
+    gap:3rem;
+}
+.left-nav > ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.links
+{
+    color: #FFFFFF;
+   text-decoration: none;
+
+}
+.lg
+{ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.lg > a > img{
+    width: 96px;
+    height: 38px;
+}
+.right-nav{
+    display: flex;
+    width: 200px;
+    height: 9vh;
+    align-items: center;
+    justify-content: center;
+}
+.btn-token{
+    color: #FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-weight:bold; */
+    font: size 18px;
+    border: 0px;
+    /* box-sizing: border-box; */
+    background-color: #ee35ad;
+    width:120px;
+    height: 28px;
+    border-radius: 5px;
+}
+.main-container
+{
+    position: relative;
+    left: 23vw;
+    top: 18vh;
+    box-sizing: border-box;
+    /* border: 2px solid #FFFFFF; */
+    width: 53vw;
+    height: 28vw;
+}
+.heading
+{
+    box-sizing: border-box;
+    height: fit-content;
+    /* border: #e735d2 solid 1px; */
+    color: #FFFFFF;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 83px;
+
+}
+span{
+    font-size: 74px;
+}
+p{
+    font-size: larger;
+    text-align: center;
+    padding: 5px 5px ;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.access-button
+{
+    box-sizing: border-box;
+
+    /* border: #FFFFFF solid 1px ; */
+    height: fit-content;
+    padding-top: 42px;
+}
+.ac-btn{
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: medium;
+    border: none;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    background-color: #e735d2;
+    position: relative;
+    left: 19vw;
+    width: 200px;
+    height: 50px;
+}
+
+
+

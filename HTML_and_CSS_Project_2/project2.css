@@ -1,0 +1,75 @@
+a{
+    font-weight: 100;
+   margin: auto 20px auto 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.logo{
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: xx-large;
+    align-self: center;
+}
+.nav-bar
+{
+    display:flex;
+    margin-top: 35px;
+    flex-flow: row wrap;
+    gap:39% ;
+}
+.cont-btn{
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    align-self: center;
+    background-color: #8a1cf1;
+    color: #FFFFFF;
+    font-size:medium;
+    text-align: center;
+}
+.menu-sec{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3em;
+
+}
+.links
+{
+    align-self: center;
+}
+img{
+    width: 600px;
+}
+.service-btn{
+    align-self: flex-start;
+}
+main
+{
+    display: flex;
+    margin: 38px auto auto 20px ;
+    flex-flow: row wrap;
+}
+.content
+{
+    width: 660px;
+ align-self: center;
+}
+.service-btn{
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #8a1cf1;
+    color: #FFFFFF;
+    font-size:medium;
+    text-align: center;
+}
+.style
+{
+    color: #8a1cf1;
+}
+h1{
+   font-size: 70px; 
+   color: #250462;
+}
