@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #23273b;
+}
+@media (min-width:1024px)
+{
+    .nav-bar
+    {
+        float: right;
+        margin: 10px 10px 10px 10px;
+    }
+    .container
+    {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+    }
+    .home-btn,.project,.technologies,.contact
+    {
+        align-items: center;
+    }
+  button{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    width: 60px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color:blue;
+  }
+  a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+}
