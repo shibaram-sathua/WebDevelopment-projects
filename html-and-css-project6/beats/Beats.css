@@ -1,19 +1,9 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
 }
-body{
-    
-    background-color: black;
-}
-.shop-btn
+body
 {
-    width: 150px;
-}
-.shop-btn{
-    box-sizing: border-box;
-    border: none;
-    color: #FFFFFF;
-    width: 100px;
-    height: 35px;
+    background-color:black;
 }
