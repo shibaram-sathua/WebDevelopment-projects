@@ -7,14 +7,13 @@ body{
 }
 @media (max-width:800px)
 {
-  .nav-bar
-  {
-      display: flex;
-      margin: 10px 10px 10px 10px;
-      flex-flow: row wrap;
-      justify-content: flex-start;
-      align-items:flex-start;
-      gap: 1rem;
+  .nav-bar{
+    display: none;
+  }
+  .hamberger{
+    margin-bottom: 10px;
+    display: block;
+    width: 40px;
   }
   .home-btn,.project,.technologies,.contact
   {
@@ -136,6 +135,10 @@ body{
         justify-content: flex-end;
         align-items:flex-end;
         gap: 1rem;
+    }
+    .hamberger{
+      display: none;
+      width: 40px;
     }
     .home-btn,.project,.technologies,.contact
     {

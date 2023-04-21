@@ -17,7 +17,6 @@ nav{
 }
 .container
 {
-
     display: flex;
     flex-flow: row wrap;
     gap: 32vw;
