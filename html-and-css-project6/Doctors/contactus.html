@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contactus.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="logoimage">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="./home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./aboutus.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="./contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="formcont">
+            <h1>Contact Form</h1>
+            <form method="get">
+                <label for="name">Name</label>
+                <div class="input">
+                    <input type="text" name="name" id="name" placeholder="Enter your name" class="inputarea">
+                </div>
+                <label for="email">Email</label>
+                <div class="input">
+                    <input type="email" name="email" id="email" placeholder="Enter your email" class="inputarea">
+                </div>
+                <label for="textarea">Message</label>
+                <div class="input">
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"  placeholder="Enter your message" maxlength="300"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
