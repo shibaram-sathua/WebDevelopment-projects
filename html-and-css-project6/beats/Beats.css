@@ -1,9 +1,458 @@
-*
-{
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-body
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section1{
+    width: 76%;
+    height: 530px;
+}
+nav{   
+    width: 100%;
+    height: 80px;
+    z-index: -1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+}
+#div{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.beatsLogo{
+    width: 30px;
+}
+.bgc{
+    position: absolute;
+    top: -20px;
+    width: 200px;
+    height: 460px;
+    left: 25%;
+}
+ul{
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.shop{
+    color: #FFFFFF;
+    border-bottom: none;
+    border-right:none;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    background-color: #262525;
+    border-radius: 4px;
+    width: 92px;
+    height: 38px;
+}
+.right{
+    box-sizing: border-box;
+    width: 450px;
+    height:500px;
+    float: right;
+
+}
+.onear{
+    margin: 36px ;
+    width: 310px;
+}
+.cont{
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 46px;
+    margin: 5px 0px 30px 0px;
+}
+h4{
+    font-size: 24px;
+    margin-bottom:30px ;
+}
+.bn{
+    width: 240px;
+    letter-spacing:0.5px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.addtobag{
+    background-color: #262525;
+    border-radius: 8px;
+    margin: 34px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1.6em;
+    flex-direction: row;
+    width: 220px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.bag{
+    margin: 0px 0px 0px 4px;
+    width: 20px;
+    height: 20px;
+}
+.n{
+    width:62px;
+}
+.logos{
+    margin: 40px 0px 0px 0px ;
+    width: 52%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:8em;
+}
+.c{
+    width: 80px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    align-items: center;
+    width: 76%;
+    height: 640px;
+}
+.specs{
+    margin: 80px 0px 0px 0px;
+    height: 100%;
+    height: fit-content;
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    height: 100%;
+}
+.specsw{
+    margin-left: 60px;
+    width: 40%;
+}
+.specsimage{
+    width:50% ;
+}
+.p{
+    margin: 15px;
+    width: 160px;
+    height: 90px;
+}
+span
 {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.p1,.p4{
+    position: relative;
+    left: 42px;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    align-items: center;
+    width: 76%;
+    height: 640px;
+}
+.cont3{
+    margin: 30px 0px 0px 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    gap: 5rem;
+    height: 100%;
+}
+.logocase{
+    margin: 80px 0px 0px 0px;
+}
+.specsimage{
+    width: 50%;
+}
+.ct{
+    width: 50%;
+}
+.casedetail{
+    line-height: 24px;
+    width: 180px;
+    height: 150px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.moreinfo{
+    border-radius: 7px;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 20px;
+    width:140px ;
+    background-color: #262525;
+    height: 40px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.section4{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76%;
+    height: 480px;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    border-radius: 7px;
+    gap: 4rem;
+    background-color: #262525;
+    height: 370px;
+}
+.head-phone{
+    width: 470px;
+    height: 300px;
+}
+.about
+{ display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 32%;
+    height: 100%;
+}
+h2{
+     font-family: sans-serif;
+    color: #FFFFFF;
+}
+.buy{
+    margin: 10px 0px 10px 0px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.buynow
+{
+    border-radius: 8px;
+    padding-left:10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 116px ;
+    gap: 2em;
+    height: 43px;
+    background-color: black;
+}
+.bagshopping{
+    width: 20px ;
+    height: 20px;
+}
+#buynow1{
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 76%;
+    height: fit-content;
+}
+.productLogo{
+    margin-top: 40px;
+}
+.grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5em;
+}
+.pic{
+    position: relative;
+    bottom: 60px;
+    width: 110px;
+    height: 130px;
+}
+.v{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #262525;
+    width: 150px;
+    height: 150px;
+}
+.gridbox{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+}
+h5{
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.boxde{
+    width: 40px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #FFFFFFFF;
+}
+.blackbgc{
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 29px;
     background-color:black;
+}
+.section6{
+    display: flex;
+    flex-direction: row;
+    margin-top:130px ;
+    align-self: flex-end;
+    width: 90%;
+    height: 240px;
+}
+.beatsLogo{
+    width: 34px;
+    height: 34px;
+}
+.ff{
+    display: flex;
+    flex-direction: row;
+    gap: 6em;
+    width: fit-content;
+}
+.divm{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+#h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.kl{
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.social{
+    width: fit-content;
+    height: fit-content;
+}
+.sociallinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5em;
+}
+.input{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3em;
+    align-items: flex-start;
+    width:370px;
+    height: 100%;
+}
+.mail{
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    height: 56px;
+    background-color: #262525;
+}
+#email{
+    color:grey;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #262525;
+    width: 190px;
+    height:46px;
+}
+.subscribe{
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    width: 150px;
+    height: 84%;
+    background-color: black;
+}
+.k{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.rightarrow{
+    width: 19px;
+    height:19px;
+}
+.uparrow{
+  position: relative;
+  left: 120px;
+    width: 29px;
+    height: 29px;
 }
