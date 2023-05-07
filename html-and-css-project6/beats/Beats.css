@@ -108,9 +108,13 @@ h4{
     width: 20px;
     height: 20px;
 }
-.n{
-    width:62px;
-}
+.tobag {
+    width: 80px;
+  }
+  .price{
+    font-size: 14px;
+    width: 62px;
+  }
 .logos{
     margin: 40px 0px 0px 0px ;
     width: 52%;
@@ -208,7 +212,6 @@ span
     border-radius: 7px;
     font-size: 17px;
     box-sizing: border-box;
-    padding: 0px 0px 0px 20px;
     width:140px ;
     background-color: #262525;
     height: 40px;
@@ -272,8 +275,8 @@ h2{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    width: 116px ;
-    gap: 2em;
+    width: 120px;
+    gap: 1em;
     height: 43px;
     background-color: black;
 }
