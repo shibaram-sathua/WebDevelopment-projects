@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+header{
+    background-image: url(./pexels-cátia-matos-1072179.jpg);
+    min-width: 400px;
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: none;
+}
+.section{
+    min-width: 400px;
+    height: 40vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec2{
+    display: flex;
+    width: inherit;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+.counter{
+    text-align: center;
+    min-width: 20px ;
+    width: 300px;
+    height: 40px;
+    background-color:#c7d5d5;
+    border-radius: 1rem;
+    font-size: 18px;
+}
+.button{
+    height: 47px;
+    min-height: 20px;
+    min-width: 5rem;
+    width: 300px;
+}
+.reset{
+    min-width: 40px;
+    width: 120px;
+    height: 40px ;
+    margin-bottom: 1.3rem;
+}
+.btn{
+    border: none;
+    outline: none;
+    outline: none;
+    background-color:#f8f6fa;
+    text-align: center;
+    color: black;
+    box-shadow:  0px 0px 2px 2px lavender;
+    font-size: 18px;
+    transition:all 0.9s;
+}
+.box:hover{
+    color: #FFFFFF;
+    background: black;
+    border-radius: 2rem;
+}
+
